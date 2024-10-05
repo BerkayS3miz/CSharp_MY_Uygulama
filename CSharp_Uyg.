@@ -1,0 +1,117 @@
+namespace _01_MainSubjects
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region ConsoleWriteLine ile ConsoleWrite  farkı
+            //Console.WriteLine("merhaba dünya");// writeline komutu yazdığımızda içinde yazanı gösterir ve alt satıra iner yani şöyle olcak: merhaba dünya 
+            //Console.Write("selam");
+            //Console.WriteLine();//selam burdada gördüğümüz gibi write ile ekrana yazdırınca yanından devam etti 
+            //Console.Write("merhaba dünya");                                                                                                     m
+            //Console.WriteLine("selam");                                                                                                        selam
+
+            //Console.Read();
+            #endregion
+
+            #region Variables
+            //Console.WriteLine("****ManavTutarHesaplama****");
+
+            //Console.WriteLine();
+            //double orangeGram, strawberryGram, tomatoGram, potatoGram;
+            //double orangePrice, strawberryPrice, tomatoPrice, potatoPrice;
+            //double totalPrice;
+
+            //orangePrice = 35.30;
+            //strawberryPrice = 135.30;
+            //tomatoPrice = 30.00;
+            //potatoPrice = 44.50;
+
+            //orangeGram = 1.345;
+            //strawberryGram = 2.45;
+            //tomatoGram = 3.00;
+            //potatoGram = 4.79;
+
+            //totalPrice = orangeGram * orangePrice + strawberryGram * strawberryPrice + tomatoGram * tomatoPrice + potatoGram * potatoPrice;
+
+            //Console.WriteLine("Portakal Fiyatı =" + orangeGram * orangePrice + "TL");
+            //Console.WriteLine("Çilek Fiyatı =" + strawberryGram * strawberryPrice + "TL");
+            //Console.WriteLine("Domates Fiyatı =" + tomatoGram * tomatoPrice + "TL");
+            //Console.WriteLine("Patates Fiyatı =" + potatoGram * potatoPrice + "TL");
+
+            //Console.WriteLine();
+
+            //Console.WriteLine(totalPrice);
+
+
+            //Console.Read();
+
+
+
+            #endregion
+
+            #region KLAVYEDEN GİRİŞLER VE DÖNÜŞÜMLER
+            //Console.WriteLine("****CSAHRP HAVA YOLLARI****");
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+            //string passengerIdNumber, passengerName, passengerSurname,passengerAge,passengerGender;
+            //Console.Write("İsminizi girin: ");
+            //passengerName = Console.ReadLine();
+
+            //Console.Write("Soyisminizi girin: ");
+            //passengerSurname = Console.ReadLine();
+
+            //Console.Write("Yasınızı girin: ");
+            //passengerAge = Console.ReadLine();
+
+            //Console.Write("Kimli Numaranızı girin: ");
+            //passengerIdNumber = Console.ReadLine();
+
+            //Console.Write("Cinsiyetinizi girin: ");
+            //passengerGender = Console.ReadLine();
+
+
+            //Console.WriteLine("Kimlik Numaranız: " + passengerIdNumber + "\n" + "Adınız: " + passengerName+"\n"+ "Soyadınız: "+ passengerSurname
+            //   +"\n" +"Yasınız: "+passengerAge +"\n" +"Cinsiyetiniz: "+passengerGender);
+
+
+
+            //Console.Read();
+
+
+
+            //int tvPrice,phonePrice,speakerPrice ;
+            //int tv,phone,speaker,totalPrice;
+
+            //tvPrice = 35000;
+            //phonePrice = 25000;
+            //speakerPrice = 10000;
+
+            //Console.Write("tv adedi: ");
+            //tv=int.Parse(Console.ReadLine());
+
+            //Console.Write("telefon adedi: ");
+            //phone = int.Parse(Console.ReadLine());
+
+            //Console.Write("hoparlör adedi: ");
+            //speaker = int.Parse(Console.ReadLine());
+
+            //totalPrice = tvPrice*tv+phonePrice*phone+speaker*speakerPrice;
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("Toplam tutar: " + totalPrice);
+
+            //Console.Read();
+
+
+             
+
+
+            #endregion
+
+
+        }
+    }
+}
