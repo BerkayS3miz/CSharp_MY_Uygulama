@@ -1,0 +1,173 @@
+namespace _03_Making_Decision
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region If Else elseif
+            //Console.WriteLine("****Ortalama Hesaplama ve Sınıflandırma");
+            //Console.WriteLine();
+
+            //int exam1, exam2, exam3, average;
+            //string result;
+
+            //Console.Write("Lütfen 1.Sınav Notunuzu Giriniz: ");
+            //exam1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2.Sınav Notunuzu Giriniz: ");
+            //exam2 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 3.Sınav Notunuzu Giriniz: ");
+            //exam3 = int.Parse(Console.ReadLine());
+
+            //if (exam1 < 0 || exam1 > 100 || exam2 < 0 || exam2 > 100 || exam3 < 0 || exam3 > 100)
+            //{
+            //    Console.WriteLine("Lütfen 0 ile 100 arasında notlar giriniz.");
+            //}
+            //else
+            //{
+            //    average = (exam1 + exam2 + exam3) / 3;
+            //    if (0 < average & average <= 50)
+            //    {
+            //        Console.WriteLine("Ortalamız: " + average + " " + "kendini vermiyorsunuz sonu kötü olabilir :(");
+            //    }
+            //    else if (50 < average & average <= 74)
+            //    {
+            //        Console.WriteLine("Ortalamız: " + average + " " + "Daha çok çalışmalısınız.");
+            //    }
+            //    else if (74 < average & average <= 84)
+            //    {
+            //        Console.WriteLine("Ortalamız: " + average + " " + "İyi gidiyorsun çalışmaya devam.");
+            //    }
+            //    else if (84 < average)
+            //    {
+            //        Console.WriteLine("Ortalamız: " + average + " " + "Çok iyi yeni maceralara atılabilirsin tekrarı unutma ;)");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Lütfen 0 ile 100 arasında not giriniz");
+            //    }
+            //}
+            //Console.Read();
+            // eğer else olmasaydı hata verecekti çünkü bunlar olmazsa ne olacak diye 
+            #endregion
+
+            #region Mod Alma
+            // Mod alma demek kalanı bulmak demek '%' işareti ile gösterilir, bir sayıyı diğer sayıya böldüğümüzde kalanı bulan metottur.
+
+            //int number = 28;
+            //int result = number % 5;
+            //Console.WriteLine(result);
+
+            //Console.Write("Lütfen 1. sayıyı girin: ");
+            //int number1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. sayıyı girin: ");
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //if (number2 == 0)
+            //{
+            //    Console.WriteLine("Sıfıra bölme Hatası");
+            //}
+            //else
+            //{
+            //    int result = number1 % number2;
+            //    Console.WriteLine(result);
+            //}
+
+            //Console.Write("Lütfen 1. sayıyı girin: ");
+            //int number1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. sayıyı girin: ");
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //int result = number1 % number2;
+
+            //if (result == 0)
+            //{
+            //    Console.Write("Sayı çifttir.");
+            //}
+            //else
+            //{
+            //    Console.Write("Sayı tektir.");
+            //}
+            #endregion
+
+            #region Char
+            //char team;
+
+            //Console.Write("Takımın baş harfini girin: ");
+            //team = Char.Parse(Console.ReadLine());
+
+            //if(team == 'f'|| team =='F')
+            //{
+            //    Console.WriteLine("Fenerbahçe");
+            //}
+            //else if (team == 'g' || team == 'G')
+            //{
+            //    Console.WriteLine("Galatasaray");
+            //}
+            //else if (team == 'b' || team == 'B')
+            //{
+            //    Console.WriteLine("Beşiktaş");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("3 büyük takımların baş harflerinden birini giriniz");
+            //}
+            #endregion
+
+            #region SwitchCase
+
+            //Console.Write("Lütfen ay girişi yapınız: ");
+            //int monthNumber = int.Parse(Console.ReadLine());
+
+            //switch (monthNumber)
+            //{
+            //    case 1: Console.Write("Ocak"); break;
+            //    case 2: Console.Write("Şubat"); break;
+            //    case 3: Console.Write("Mart"); break;
+            //    case 4: Console.Write("Nisan"); break;
+            //    case 5: Console.Write("Mayıs"); break;
+            //    case 6: Console.Write("Haziran"); break;
+            //    case 7: Console.Write("Temmuz"); break;
+            //    case 8: Console.Write("Ağustos"); break;
+            //    case 9: Console.Write("Eylül"); break;
+            //    case 10: Console.Write("Ekim"); break;
+            //    case 11: Console.Write("Kasım"); break;
+            //    case 12: Console.Write("Aralık"); break;
+            //    default: Console.Write("Hatalı giriş."); break;
+            //}
+            #endregion
+
+            #region SwitchCase ile Hesap makinesi
+
+            //double number1, number2;
+            //char symbol;
+            //Console.Write("1. sayıyı giriniz: ");
+            //number1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("2. sayıyı giriniz: ");
+            //number2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Yapmak istediğiniz işlemi girin: ");
+            //symbol = char.Parse(Console.ReadLine());
+
+            //double toplam = number1 + number2;
+            //double cikarma = number1 - number2;
+            //double carpma = number1 * number2;
+            //double bolme = number1 / number2;
+
+            //switch (symbol)
+            //{
+            //    case '+': Console.Write(toplam); break;
+            //    case '-': Console.Write(cikarma); break;
+            //    case '*': Console.Write(carpma); break;
+            //    case '/': Console.Write(bolme); break;
+            //}
+
+            //Console.Read();
+            #endregion
+        }
+    }
+}
