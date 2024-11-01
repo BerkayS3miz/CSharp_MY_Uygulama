@@ -1,0 +1,240 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _04_Loops
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region For Döngüsü
+            // for (x; y ;z)
+            // x : başlangıç değeri
+            // y : bitiş değeri
+            // z : artış - azalış
+            //int i ;
+
+            //for(i = 0; i<=20; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int totalValue = 0 ;
+
+            //for(i = 0; i <100; i++) 
+            //{ 
+            //    if(i%2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    totalValue += i;
+            //}
+
+            //Console.WriteLine("+-------------");
+
+
+            //Console.WriteLine(totalValue);
+
+            //for(i = 0 ; i < 5; i++) { Console.WriteLine("M&Y ile C Sharp Dersleri");}
+
+            //3 basamaklı 3 e bölüne bilen pozitif sayıların tolpamını bulan kod:
+
+            //int totalValue = 0;
+
+            //for(i = 100; i <= 999; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+
+            //        totalValue += i;
+            //    }
+            //}
+            //Console.WriteLine(totalValue);
+
+            // 0 ile 50 arasında 7 e bölüne bilen sayılar
+
+            //int count = 0;
+
+            //for (i =0; i<50;i++ )
+            //{
+            //    if ( i % 7 == 0)
+            //    {
+            //        count+=1;
+            //    }
+
+            //}
+
+            //Console.WriteLine(count);
+            // Console.Read();
+            //i yi üste integer olarak tanımladığım için tekrar yazmadım.
+            #endregion
+            #region Örnek Soru
+            /* Bir bakteri her saatin sonunda ikiye bölerek çoğalmaktadır. 
+             * 24 saatin sonunda ne kadar bakteri olur? ---> Bu soru çözen kodu yazınız.
+             *ilk başta 1 sonra 2 sonra 4 şeklinde ...
+             */
+
+            //int totalBakteri=1;
+            //int time = 0;
+
+            //for (time = 1;time<=24;time++)
+            //{
+            //    totalBakteri *= 2;
+            //    Console.WriteLine(time + ".Saat Sonunda: "+totalBakteri);
+
+            //}
+            //Console.Read();
+
+            #endregion
+            #region While Döngüsü
+            // şart sağlandığı müddetçe anlamı vermektedir. syntax olarak for döngüsünden farklıdır
+            // farklı olduğu kısım arttırma işlemi işlemlerin olduğu yerde yapılır
+
+            // While(şart)
+            // {
+            //    işlemler
+            //    }
+
+            //int i = 1;
+
+            //while (i <=10 )
+            //{
+            //    Console.WriteLine("Merhaba Döngüler");
+            //    i++;
+            //}
+
+            //int i=0;
+            //while(i<=10) { 
+            //    if(i%3 ==0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    i++;
+            //}
+
+            //int sum = 0;
+
+            //while (i <= 10)
+            //{
+            //    sum+=i;
+            //    i++;
+            //}
+            //Console.WriteLine(sum);
+
+
+
+            //Console.Read();
+            #endregion
+            #region Sınav Sorusu
+            //klavyeden girilen 3 basamaklı sayının basamakları toplamını hesaplayan kodu yazınız.
+
+
+
+            //Console.Write("Lütfen 3 basamaklı sayıyı giriniz: ");
+
+            //int a = int.Parse(Console.ReadLine());
+
+
+            //int birlerBas = a % 10;
+
+            //int onlarBas = (a%100)/10;
+
+            //int yuzlerBas = a / 100;
+
+            //int total = yuzlerBas + onlarBas + birlerBas;
+            //Console.WriteLine(total);
+
+            //Console.Read();
+            #endregion
+            #region Üçgen Çizimleri
+
+            //Dik üçgen oluşturma
+
+            //for (int i = 1; i<=10;i++)
+            //{
+            //    for(int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Ters dik üçgen
+            //for (int i = 10; i >=1; i--)
+            //{
+            //    for (int j = 1; j <=i ; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // iki üçgen birleşimi
+
+            //for(int i = 1 ;i<=10; i++)
+            //{
+            //    for (int j = 1 ;j<=i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for(int k = 10 ; k>=1 ; k--)
+            //{
+            //    for( int m = 1 ; m<=k; m++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+            #region Baklava Dilimi
+            //int n = 5;
+
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = n-1; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int m = 0;m < 2 * i - 1; m++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            #endregion
+            #region piramit
+
+            //int n = 5;
+
+            //for (int i =1; i <= n; i++)
+            //{
+            //    //boşluk
+            //    for (int j =n-i ; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int k =0; k < 2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine();
+                
+            //}
+
+            #endregion
+            //Console.Read();
+        }
+    }
+}
