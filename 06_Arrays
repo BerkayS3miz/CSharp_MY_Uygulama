@@ -1,0 +1,135 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _06_Arrays
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region Diziler
+            // dizi metotları Array.Metot şeklinde başına ilk harfi büyük Array yazıp noktadan sonra metodun ismini yaz
+
+            // Diziler aynı veri tipindeki çok sayıda veriyi bir arada tutma için kullanılan yapılardır
+            //1,2,3,4,5  sayı dizisi
+            //mavi,kırmızı,sarı,yeşil renk dizisi
+
+            // Değişken Türü [] Dizin adı = new Değişken türü[eleman sayısı]
+
+            //string[] colors = new string[4];
+            //colors[0] = "sarı";
+            //colors[1] = "kırmızı";
+            //colors[2] = "turuncu";
+            //colors[3] = "lacivert";
+
+            //Console.WriteLine(colors[2]);
+
+
+            // Dizi başka şekildede oluşturulabilir.
+
+            //string[] cities = {"denizli","bursa","yalova", "İstanbul"};
+
+            //for (int i = 0; i < cities.Length; i++)
+            //{
+            //    Console.WriteLine(cities[i]);
+            //}
+
+            //int[] numbers = { 12, 34, 56, 7889, 9090, 231 };
+
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i]%3 == 0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
+
+            //int[] myArray = {789, 12, 14, 56, 78, 90 };
+            //int maxNumber = myArray[1];
+
+            //for (int i = 0; i < myArray.Length; i++) 
+            //{
+            //    if (myArray[i] > maxNumber)
+            //    {
+            //        maxNumber = myArray[i];
+
+            //    }
+
+            //}
+            //Console.WriteLine(maxNumber);
+
+
+            //string[] persons = { "ali", "ahmet", "mehmet", "ayşe", "ümmü" };
+
+            //Console.WriteLine(persons.Length);
+
+            //int[] numbers = { 789, 12, 14,108,1234, 56, 90 };
+
+            //Array.Sort(numbers);
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //int[] numbers = { 789, 12, 14, 108, 1234, 56, 90 };
+            //Array.Reverse(numbers);
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //string[] persons = { "ali", "ahmet", "mehmet", "ayşe", "ümmü" };
+            //int index = Array.IndexOf(persons, "ayşe");
+            //Console.WriteLine(index);
+
+            //int[] numbers = { 12, 54, 67, 98, 32, 45, 21 };
+
+            //Console.WriteLine("Dizinin En büyük elemanı: " + numbers.Max() + "\nDizinin En küçük elemanı: "+ numbers.Min());
+            //Console.Read();
+            
+            #endregion
+
+
+              #region Klavyeden girdi alarak dizi oluşturma
+            //string[] cities = new string [5] ;
+            //int i;
+
+            //for (i = 0 ; i < cities.Length ; i++)
+            //{
+            //    Console.Write($"Lütfen {i+1}.Şehirİ giriniz: ");//dolar işareti parametresel değer yazdırmamızı sağlar  
+            //    cities[i] = Console.ReadLine();
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("--------------------------------");
+
+
+            //for( i = 0; i < cities.Length; i++)
+            //{
+            //    Console.WriteLine(cities[i] ); 
+            //}
+
+
+            //int [] number = { 1, 2, 3,23,45,56,68 };
+
+            //int sum = 0;
+
+            //for (int i = 0; i < number.Length; i++)
+            //{
+            //    sum += number[i];
+            //}
+
+            //Console.Write(sum); 
+
+
+
+
+            Console.Read();
+
+            #endregion
+        }
+    }
+}
+         
