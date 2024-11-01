@@ -1,0 +1,117 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _07_Foreach
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region ForeEach
+            //Foreach(1;2;3;4)
+            //foreach sadece dizilerle değil listelerlede çalışır
+
+            // 1: Değişken türü
+            // 2: Değişken adı
+            // 3: In
+            // 4: Liste Koleksiyon, Dizi
+
+            //string[] cities = { "roma", "paris", "milano", "londra" };
+
+            //foreach (string city in cities)
+            //{
+            //    Console.WriteLine(city);
+            //}{12,34,56,78,909,876,45,42,12};
+
+            //int[] numbers = { 12, 34, 56, 78, 909, 876, 45, 42, 12 };
+            //int total = 0;
+
+            //foreach(int i in numbers)
+            //{
+            //    total += i;
+            //}
+            //Console.WriteLine(total);
+
+
+            //List<int> numbers = new List<int>()
+            //{
+            //    1,2,3,4,5,6,7
+            //};
+
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //string word = " hello";
+
+            //foreach(char c in word)
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+
+
+
+            //Console.Read();
+            #endregion
+
+            #region Örnek Sınav Sistemi Uygulaması
+
+            Console.Write("******* C#Eğitim Kampı Sınav Uygulamasına Hoşgeldiniz *******");
+            Console.WriteLine();
+            Console.
+                
+                WriteLine();
+
+            Console.Write("Sınıfta Kaç öğrenci var:");
+            int studentCount = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            // öğrenci isimlerini ve ortalamalarını saklıycak dizilere ihtiyacımız var
+
+            string[] studentNames = new string[studentCount];
+            double[] Examavg = new double[studentCount];
+
+            for(int i = 0; i < studentCount; i++)
+            {
+                Console.Write($"{i+1}. öğrencinin ismini giriniz: ");
+                studentNames[i] = Console.ReadLine();
+
+                double totalExamResult = 0;
+
+                for(int j = 0; j < 3; j++)
+                {
+                    Console.Write($"{studentNames[i]} isimli öğrencinin {j+1}.sınav notunu giriniz: ");
+                    double value = double.Parse(Console.ReadLine());
+                    totalExamResult += value;
+                }
+             
+                Examavg[i] = totalExamResult/3;
+                Console.WriteLine(studentNames[i]+"'nin ortalaması "+ Examavg[i]);
+
+                if (Examavg[i] < 50)
+                {
+                    Console.WriteLine($"{studentNames[i]} adlı Öğrenci kaldı");
+                }
+                else
+                {
+                    Console.WriteLine($"{studentNames[i]} adlı öğrenci geçti");
+                }
+            }
+            
+           
+
+
+
+
+            #endregion
+            Console.Read();
+        }
+    }
+}
