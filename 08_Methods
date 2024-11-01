@@ -1,0 +1,117 @@
+using System;
+
+namespace _8_Methods
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {// biz daha öncelerinde hep hazır metotlarla çalıştık parse bi metot console.write bir metottur şimdi ise kendi metotdumuzu
+         // kendi metodumuzu nasıl oluşturacağımızı göreceğiz
+         //----------------------------------------------------------------------------------------------------
+
+            // bir yapının metot olduğunu anlamak için sonuna mutlaka parantez açılıp kapanması gerekiyor ()
+            // metotlar c# simgesi mor renkli küptür örnek olarak yukarıdaki main ifadesinin üzerine imleçi götürünce mor küp simgesi çıkacak
+            // metotlar 2 ye ayrılır 
+            // 1. si geriye değer döndürmeyen metotlar:
+            // örnek : veri tabanınıda customer işleri var
+            // customerde ne var  customer --> Listele , ekle , sil, güncelle var
+            // void olarak tanımlanır
+
+
+            #region Void Metotlar
+            //void CustomerList()
+            //{
+            //    Console.WriteLine("Ali Yıldız");
+            //    Console.WriteLine("Ayşe Yıldız");
+            //    Console.WriteLine("Hakan Öztürk");
+            //    Console.WriteLine("Merve Çınar");
+            //}
+
+            //CustomerList();
+
+            //void Sum()
+            //{
+            //    int y = 7;
+            //    int x = 13;
+            //    int total = x + y;
+            //    Console.WriteLine(total);
+            //}
+
+            //Sum();
+
+            #endregion
+
+            #region Geriye Değer döndürmeyen string parametreli metotlar
+
+            //void CumtomerName(string name)
+            //{
+            //    Console.WriteLine(name);
+            //}
+
+            //CumtomerName("berkay semiz");
+
+            //void CustomerCard(string Name,string Surname, string bolum )
+            //{
+            //    Console.WriteLine("Müşteri: "+ Name + " " +Surname+ " \nBölüm: " + bolum);
+            //}
+
+            //CustomerCard("berkay ","semiz","mekatronik mühendisliği");
+            #endregion
+
+            #region Geriye değer döndürmeyen int parametreli metotlar
+
+            //void Sum(int x, int y, int z) 
+            //{
+            //    Console.WriteLine(x + y + z);
+            //}
+            //Sum(37,23,45);
+            #endregion
+
+
+            #region geriye değer döndüren metotlar
+
+            //string StudentCard()
+            //{
+            //    string name = "ali";
+            //    string surname = "yayla";
+            //    return name + " " + surname;
+            //}
+
+            //Console.WriteLine(StudentCard());
+            #endregion
+
+            #region geriye değer döndüren string parametreli metotlar
+
+            // string countryCard(string countryName, string capital, string flagColor)
+            // {
+            //     string cardInfo = "ülke: " + countryName + "\nbaşkent: " + capital + "\nbayrak rengi: "+flagColor;
+            //     return cardInfo;
+
+            // }
+
+            // string x, y, z;
+            // Console.Write("Ülke adını giriniz: ");
+            // x = Console.ReadLine();
+
+            // Console.Write("başkenti girin: ");
+            // y = Console.ReadLine();
+
+            // Console.Write("bayrak rengini girin: ");
+            // z = Console.ReadLine();
+
+            //Console.WriteLine(countryCard(x, y, z));
+            #endregion
+
+            #region geriye değer döndüren int pararmetreli metotolar
+
+            //int Sum(int x,int y,int z) 
+            //{
+            //    return x + y + z;
+            //}
+
+            //Console.WriteLine(Sum(1, 12, 13));
+            //Console.WriteLine(Sum(11, 12, 13));
+
+
+            #endregion
+
